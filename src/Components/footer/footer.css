@@ -1,0 +1,24 @@
+.navbar-nav {
+    margin-top: 20px;
+}
+.footer .navbar {
+    font-family: 'Merienda';
+    font-size: 12px;
+    margin-top: 50px;
+    color: #000;
+}
+.footer .container .row .container .justify-content-start {
+    justify-content: center;
+}
+.footer .nav-item .nav-link { 
+    color: #000;
+}
+.footer .nav-item .nav-link:hover {
+    text-decoration: underline;
+    color: #000;
+    box-shadow: 10px 5px 5px black;
+}
+.footer .active {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,40 @@
+.main {
+    background: url(../../images/main/Main\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-text {
+    color: #fff;
+    font-family: 'Merienda';
+}
+.main-title {
+    font-size: 40px;
+    margin-top: 180px;
+}
+.main-subtitle {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+}
+.btn-main {
+    min-width: 120px;
+    min-height: 30px;
+    margin-bottom: 200px;
+
+}
+/*ABOUT*/
+.about-title {
+    margin-top: 80px;
+}
+.about-text {
+    margin-top: 40px;
+}
+.about-text-down {
+    margin-bottom: 100px;
+}
+/*RECOMMENDED*/
+.recommended {
+    background: url(../../images/recommended/recommended-bg.jpg);
+}
+.recommended-title{
+    margin: 80px 0 20px 0;
+}

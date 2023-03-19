@@ -1,0 +1,62 @@
+.filter-group {
+    font-family: 'Merienda';
+}
+.search-group {
+    font-family: 'Merienda';
+}
+.filters {
+    margin-bottom: 65px;
+
+}
+.search-label {
+        font-weight: 700;
+        margin-right: 20px;    
+}
+input {
+        max-width: 180px;
+        text-align: center;
+        padding: 8px 10px;
+        border: 0 !important;
+        border-radius: 4px;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+        transition: box-shadow .2s linear;
+}
+input:focus, 
+input:active {
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)!important;
+        border: 0 !important;
+        outline: none;
+}
+.filter-label {
+    font-weight: 700;
+    margin-right: 20px;
+}
+.search-group,
+.filter-group {
+    margin-bottom: 15px;
+}
+.filter-btn {
+    margin-right: 5px;
+    background-color: #fff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 4px 0px 0px 4px;
+
+    transition: box-shadow .2s linear !important;
+}
+
+.filter-btn {
+    margin-right: 5px;
+
+    background-color: #fff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 4px 0px 0px 4px;
+
+    transition: box-shadow .2s linear !important;
+}
+.filter-btn :hover{
+        border-color: transparent !important;
+        background-color: transparent !important;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)!important;
+}
+
+

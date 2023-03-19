@@ -1,0 +1,21 @@
+
+.navbar-nav {
+    margin-top: 50px;
+}
+.nav-item .nav-link {
+            font-size: 12px;
+            line-height: 17px;
+            color: #fff;
+            
+            transition: color .2s linear;
+}
+
+.nav-item .nav-link a:hover {
+                text-decoration: underline;
+                box-shadow: 10px 5px 5px black;
+            }
+
+.nav-item .nav-link .active {
+            text-decoration: underline;
+        }
+

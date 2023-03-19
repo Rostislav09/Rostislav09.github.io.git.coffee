@@ -1,0 +1,60 @@
+.coffee-card {
+    display: flex;
+    font-family: 'Merienda';
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 220px;
+
+    padding: 15px 20px;
+    margin-bottom: 40px;
+
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: transform .2s linear;
+
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,.25);
+    margin: 0 25px 40px;
+
+}
+
+.coffee-card:hover {
+        transform: translateY(-5px);
+    }
+
+.coffee-card_img {
+        width: 100%;
+        max-width: 151px;
+        min-height: 130px;
+        margin: 0 auto 15px;
+}
+
+.coffee-card__title,
+.coffee-card__price,
+.coffee-card__country {
+        font-weight: 400;
+        font-size: 14px;
+
+        margin-top: 20px;
+}
+
+.coffee-card__price {
+        font-weight: 700;
+}
+
+.coffee-card__price,
+.coffee-card__country {
+        text-align: right;
+}
+
+.link-card{
+        text-decoration: none;
+        color: inherit;
+      }
+.link-card:hover{
+        text-decoration: none;
+        color: inherit;
+}

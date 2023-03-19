@@ -1,0 +1,19 @@
+.coffee-page {
+    font-family: 'Merienda';
+}
+.about-content{
+    font-family: 'Merienda';
+}
+
+.coffee-page__inner {
+    background: url(../../images/Our-coffee/bg-ourCoffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coffee-page__title {
+    color: white;
+    margin-bottom: 85px;
+}
+
+
